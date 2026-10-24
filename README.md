@@ -72,7 +72,6 @@ python inference_onnx.py --model weights/best.onnx --source videos/armor_raw.mp4
 
 .onnx 结果：results/onnx_screenshot.png
 
-（此处插入两张截图）
 
 9. 问题与分析
 9.1 ONNX 导出后的输出格式变化
