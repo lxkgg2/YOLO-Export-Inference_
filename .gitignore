@@ -1,0 +1,28 @@
+gitignore
+# 模型权重（体积大，通过 README 说明获取方式）
+weights/*.pt
+weights/*.onnx
+*.pt
+*.onnx
+
+# 原始视频和结果视频
+videos/
+results/*.mp4
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
